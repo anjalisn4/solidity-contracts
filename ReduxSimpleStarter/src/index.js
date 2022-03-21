@@ -9,7 +9,7 @@ import youtubeApiSearch from 'youtube-api-search';
 import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
 
-const API_KEY = 'AIzaSyDkemru575S3SGEASdyKse7MR4sjHUof6I';
+const API_KEY = 'Your key';
 
 
 
