@@ -6,7 +6,7 @@ const fs = require('fs');
 const solc = require('solc')
 
 const scPath = path.resolve(__dirname, 'contracts', 'Lottery.sol')
-console.log(scPath)
+
 const source = fs.readFileSync(scPath, 'utf8');
 
 const input = {

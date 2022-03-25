@@ -9,7 +9,7 @@ contract Lottery {
 
 
     constructor() {
-        manager = msg.sender;
+        manager = payable(msg.sender);
     }
 
     function enter() public payable {
